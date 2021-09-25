@@ -1,0 +1,1 @@
+let mongoDBPath = "mongodb://localhost/webd6201";

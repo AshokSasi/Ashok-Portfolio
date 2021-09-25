@@ -1,0 +1,41 @@
+        <div class="row justify-content-lg-center g-3">
+          <h1 class="gradientBg">Contact Us</h1>
+          <p>Ashok Sasitharan: asasitharan28@gmail.com</p>
+          <p>Jacky Yuan: jacky.yuan@dcmail.ca</p>
+          <hr class="table-text" height="3px"/>
+          <div id="messageArea"></div>
+          <form method="POST" class="col-lg-6 col-md-10 col-sm-10">
+
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Full Name </span>
+              <input id="fullName" type="text" class="form-control" aria-label="Full Name" aria-describedby="Full Name Input"
+              name="FullName" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Contact Number</span>
+              <input id="contactNumber" type="tel" class="form-control" aria-label="Contact Number" aria-describedby="Contact Number Input"
+              name="ContactNumber" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+              <input id="emailAddress" type="email" class="form-control" aria-label="Email Address" aria-describedby="Email Address Input"
+              name="EmailAddress" required>
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text">Your Message</span>
+              <textarea id="message" class="form-control" aria-label="With textarea" required></textarea>
+            </div>
+            <div class="form-check mb-3">
+              <input id="subscribeCheckbox" class="form-check-input" type="checkbox" value="" name="subscribeCheckbox">
+              <label class="form-check-label table-text" for="subscribeCheckbox"> Subscribe to our Contact List</label>
+            </div>
+            <div class="text-end mt-2">
+              <button id="sendButton" type="submit" class="btn btn-primary"><i class="fas fa-envelope fa-lg"></i> Send</button>
+              <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fas fa-undo fa-lg"></i> Cancel</button>
+            </div>
+            
+          </form>
+        </div>

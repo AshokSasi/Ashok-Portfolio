@@ -1,0 +1,125 @@
+/*
+Name: Ashok Sasitharan 100745484, Jacky Yuan 100520106
+Date: April 13 2021
+File: app.css
+*/
+.textcenter{
+    text-align: center;
+}
+/* body.bg-image{
+    background-image : url('../Assets/images/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+} */
+body
+{
+    padding-bottom: 40px;
+    background-color: #222;
+}
+/* .gradientBg{
+    padding-left: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin: 50px auto;
+    background: linear-gradient(35deg, rgba(22, 11, 82, 0.5),rgba(47, 85, 209, 0.8),rgba(61, 104, 245, 1));
+   
+} */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h1.title{
+    font-size: 30px;
+    color: white;
+}
+
+h3{
+    color:white;
+    text-shadow: 2px 2px #000000;
+}
+
+p{
+    color:white;
+    font-size: large;
+    text-shadow: 2px 2px #000000;
+}
+
+footer{
+    color:white;
+}
+.resume-link{
+    color:rgb(12, 185, 238);
+}
+.table-text{
+    color: white;
+}
+.text-shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Login and register CSS */
+
+.input-group-addon:first-child
+{
+    border-right: 0;
+}
+
+.input-group-addon
+{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 4xpx; 
+}
+
+.input-group-addon .fa
+{
+    font-size: 18px;
+}
+
+.input-group .form-control
+{
+    position:relative;
+    z-index: 2;
+    float:left;
+    margin-bottom: 0;
+}
+
+.input-group .form-control:last-child
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+.login
+{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(35deg, rgba(22, 11, 82, 0.5),rgba(47, 85, 209, 0.8),rgba(61, 104, 245, 1));
+    border-radius: .3rem;
+    color:white;
+}
+
+.login input
+{
+    background-color: white;
+    border-color: darkgrey;
+    border-radius: .4em;
+    width: 100%;
+}
+
+.submit-right{
+    text-align: right;
+}
